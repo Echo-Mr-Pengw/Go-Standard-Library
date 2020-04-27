@@ -1,2 +1,2 @@
-# Go-Beego-Admin
-基于Go框架Beego的后台
+# Go-Standard-Library
+Go的标准库
