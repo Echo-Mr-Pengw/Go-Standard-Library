@@ -16,9 +16,13 @@ func main() {
 	i, err := strconv.ParseInt("-11", 10, 0)
 	fmt.Println(i, err)  // -11 nil
 
+	// Atoi 等价于 ParseInt(s, 10, 0)
+	i1, err := strconv.Atoi("-11")
+	fmt.Println(i1, err)  // 11 nil
+
 	// 字符串转换成无符号的整型，第一个参数是无符号的
-	i1, err := strconv.ParseUint("12", 10, 0)
-	fmt.Println(i1, err)  // 12 nil
+	i2, err := strconv.ParseUint("12", 10, 0)
+	fmt.Println(i2, err)  // 12 nil
 
 	// 字符串的浮点型转换成浮点型
 	f, err := strconv.ParseFloat("1.20", 64)
