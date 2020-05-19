@@ -1,4 +1,4 @@
-// path包：与路基相关的包
+// path包：与路径相关的包
 package main
 
 import (
