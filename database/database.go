@@ -53,11 +53,11 @@ func main() {
 
 	// 通过stmt，操作数据库
 	// 插入数据
-	stmt, err := db.Prepare("insert into tbl_tag(tagname) values(?)")
-	checkError(err)
-	result, err := stmt.Exec("测试2")
-	checkError(err)
-	lastId, _ := result.LastInsertId()
-	log.Println(lastId)
+	//stmt, err := db.Prepare("insert into tbl_tag(tagname) values(?)")
+	//checkError(err)
+	//result, err := stmt.Exec("测试2")
+	//checkError(err)
+	//lastId, _ := result.LastInsertId()
+	//log.Println(lastId)
 
 }
